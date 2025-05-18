@@ -46,6 +46,13 @@ ___
 
 ### Схемы статусов файлов в git status
 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+``` 
+
 ### Стили комментариев
 
 * #### Корпоративный
